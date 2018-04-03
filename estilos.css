@@ -1,0 +1,39 @@
+html {
+  font-family: verdana;
+}
+
+header {
+  height: 20vh;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+
+header h1{
+  text-align: left;
+  margin-left: 10px;
+  color: white;
+  text-shadow: 2px 2px #02010aAA;
+  position: absolute;
+	top: 5%;
+}
+
+.navbar{
+  position: absolute;
+  top: 6%;
+  right: 10px;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a{
+  display: block;
+  padding: 8px;
+  color: white;
+}
+
+li a.active{
+  text-decoration: none;
+}
